@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Oil Spill Segmentation — Final Report</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 45px auto;
+    padding: 0 25px;
+    line-height: 1.55;
+    color: #243142;
+}
+h1, h2, h3 { color: #173b50; }
+h1 { font-size: 32px; }
+h2 {
+    margin-top: 32px;
+    border-bottom: 1px solid #d8e0e7;
+    padding-bottom: 8px;
+}
+.subtitle { color: #627487; }
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 13px;
+}
+th, td {
+    border-bottom: 1px solid #dce3e9;
+    padding: 9px;
+    text-align: left;
+}
+th { background: #eaf1f4; }
+.barlabel {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+    font-size: 14px;
+}
+.barback {
+    background: #e7edf2;
+    width: 100%;
+    height: 17px;
+    border-radius: 5px;
+}
+.bar {
+    background: #287f91;
+    height: 100%;
+    border-radius: 5px;
+}
+.prediction { width: 100%; max-width: 880px; }
+.note {
+    border-left: 3px solid #9aaaba;
+    padding-left: 14px;
+    color: #485867;
+}
+@media print {
+    body { margin: 10mm; }
+    h2, h3 { break-after: avoid; }
+    img { max-height: 230mm; object-fit: contain; }
+}
+</style>
+</head>
+<body>
+<h1>Oil Spill Semantic Segmentation</h1>
+<p class="subtitle">Four-experiment team comparison</p>
+
+<h2>1. Project Overview</h2>
+<p>
+This project investigates five-class semantic segmentation
+of satellite SAR oil spill imagery. The target categories are
+Sea, Oil Spill, Look-alike, Ships, and Land.
+</p>
+
+<h2>2. Experiments</h2>
+<p>
+Experiment 1: U-Net with Cross-Entropy Loss.<br>
+Experiment 2: U-Net with Cross-Entropy and Dice Loss.<br>
+Experiment 3: DeepLabV3+ with a frozen pretrained encoder.<br>
+Experiment 4: DeepLabV3+ with encoder fine-tuning.
+</p>
+
+<h2>3. Recorded Test Results</h2>
+<table>
+<thead>
+<tr>
+<th>Member</th><th>Model</th><th>Experiment</th>
+<th>Epoch</th><th>mIoU</th><th>Mean Dice</th>
+<th>Accuracy</th><th>Oil IoU</th><th>Ships IoU</th>
+</tr>
+</thead>
+<tbody><tr><td>Member1</td><td>U-Net</td><td>Cross-Entropy</td><td>25</td><td>0.4365</td><td>0.5282</td><td>91.9006%</td><td>0.2243</td><td>0.0000</td></tr><tr><td>Member2</td><td>U-Net</td><td>CE + Dice</td><td>30</td><td>0.5347</td><td>0.6556</td><td>92.3304%</td><td>0.3079</td><td>0.2903</td></tr><tr><td>Member3</td><td>DeepLabV3+</td><td>Frozen Backbone</td><td>16</td><td>0.6509</td><td>0.7616</td><td>96.4869%</td><td>0.4895</td><td>0.3255</td></tr><tr><td>Member4</td><td>DeepLabV3+</td><td>Fine-tuning</td><td>26</td><td>0.6628</td><td>0.7724</td><td>96.4499%</td><td>0.5252</td><td>0.3432</td></tr></tbody>
+</table>
+
+<h2>4. mIoU Comparison</h2>
+
+    <div class="barlabel">
+      Member1 — Cross-Entropy
+      <strong>43.65%</strong>
+    </div>
+    <div class="barback">
+      <div class="bar" style="width:43.6508%"></div>
+    </div>
+    
+    <div class="barlabel">
+      Member2 — CE + Dice
+      <strong>53.47%</strong>
+    </div>
+    <div class="barback">
+      <div class="bar" style="width:53.4679%"></div>
+    </div>
+    
+    <div class="barlabel">
+      Member3 — Frozen Backbone
+      <strong>65.09%</strong>
+    </div>
+    <div class="barback">
+      <div class="bar" style="width:65.0874%"></div>
+    </div>
+    
+    <div class="barlabel">
+      Member4 — Fine-tuning
+      <strong>66.28%</strong>
+    </div>
+    <div class="barback">
+      <div class="bar" style="width:66.2795%"></div>
+    </div>
+    
+
+<h2>5. Per-Class IoU</h2>
+<table>
+<thead>
+<tr>
+<th>Class</th><th>Member 1</th><th>Member 2</th>
+<th>Member 3</th><th>Member 4</th>
+</tr>
+</thead>
+<tbody><tr><td>Sea</td><td>0.9188</td><td>0.9231</td><td>0.9637</td><td>0.9630</td></tr><tr><td>Oil Spill</td><td>0.2243</td><td>0.3079</td><td>0.4895</td><td>0.5252</td></tr><tr><td>Look-alike</td><td>0.3100</td><td>0.3278</td><td>0.5753</td><td>0.5724</td></tr><tr><td>Ships</td><td>0.0000</td><td>0.2903</td><td>0.3255</td><td>0.3432</td></tr><tr><td>Land</td><td>0.7295</td><td>0.8243</td><td>0.9004</td><td>0.9102</td></tr></tbody>
+</table>
+
+<h2>6. Findings</h2>
+<p>
+Combining Cross-Entropy and Dice Loss improved the
+reported U-Net test mIoU compared with Cross-Entropy alone.
+Fine-tuning the pretrained DeepLabV3+ encoder improved
+test mIoU and Oil Spill IoU compared with the frozen
+backbone experiment.
+</p>
+<p>
+Among the four recorded evaluations, Member 4 achieved
+the highest test mIoU. Member 1 obtained zero IoU for
+the Ships class.
+</p>
+
+<h2>7. Evaluation Limitations</h2>
+<p class="note">
+These figures come from the four original test evaluations,
+not from a newly rerun unified evaluation. The U-Net
+evaluations count 7,208,960 test pixels, whereas the
+DeepLabV3+ evaluations exclude 22 unknown-color pixels
+and count 7,208,938 pixels.
+Training/validation partitioning also differs between
+the U-Net and DeepLabV3+ experiments.
+These differences should be considered when interpreting
+the cross-architecture comparison.
+</p>
+
+<h2>8. Saved Prediction Examples</h2>
+<p>
+The figures below are examples saved by each experiment.
+They are not guaranteed to correspond to the same input
+images and should not be presented as matched comparisons.
+</p>
+
+    <h3>Member1 — Saved test prediction examples</h3>
+    <img class="prediction" src="Member1_predictions.png">
+    
+    <h3>Member2 — Saved test prediction examples</h3>
+    <img class="prediction" src="Member2_predictions.png">
+    
+    <h3>Member4 — Saved test prediction examples</h3>
+    <img class="prediction" src="Member4_predictions.png">
+    
+
+<h2>9. Reproducibility</h2>
+<p>
+The package contains the saved best model weights,
+available configuration and source files, historical
+training records and evaluation outputs.
+The original dataset is not bundled.
+Separate notebooks should be included where available
+to support reconstruction of each experiment.
+</p>
+</body>
+</html>

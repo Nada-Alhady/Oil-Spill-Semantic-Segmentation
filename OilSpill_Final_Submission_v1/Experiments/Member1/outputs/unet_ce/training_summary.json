@@ -1,0 +1,8 @@
+{
+  "best_epoch": 25,
+  "best_val_miou": 0.4785631626793251,
+  "selection_rule": "highest validation mIoU",
+  "epochs_run": 30,
+  "total_training_seconds": 894.2,
+  "this_session_seconds": 913.7
+}

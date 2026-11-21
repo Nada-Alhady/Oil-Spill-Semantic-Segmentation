@@ -1,0 +1,882 @@
+[
+  {
+    "index": 0,
+    "name": "img_0001.jpg",
+    "pixel_accuracy": 0.994842529296875,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 118,
+    "ship_recall": 0.9491525423728814
+  },
+  {
+    "index": 1,
+    "name": "img_0002.jpg",
+    "pixel_accuracy": 0.9588165283203125,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 2,
+    "name": "img_0003.jpg",
+    "pixel_accuracy": 0.9224700927734375,
+    "oil_lookalike_confusion": 1920,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 3,
+    "name": "img_0004.jpg",
+    "pixel_accuracy": 0.98944091796875,
+    "oil_lookalike_confusion": 453,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 4,
+    "name": "img_0005.jpg",
+    "pixel_accuracy": 0.9933624267578125,
+    "oil_lookalike_confusion": 3,
+    "ship_pixels": 4,
+    "ship_recall": 0.0
+  },
+  {
+    "index": 5,
+    "name": "img_0006.jpg",
+    "pixel_accuracy": 0.987823486328125,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 6,
+    "name": "img_0007.jpg",
+    "pixel_accuracy": 0.9427337646484375,
+    "oil_lookalike_confusion": 2928,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 7,
+    "name": "img_0008.jpg",
+    "pixel_accuracy": 0.8411865234375,
+    "oil_lookalike_confusion": 22,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 8,
+    "name": "img_0009.jpg",
+    "pixel_accuracy": 0.9228668212890625,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 9,
+    "name": "img_0010.jpg",
+    "pixel_accuracy": 0.9990234375,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 10,
+    "name": "img_0011.jpg",
+    "pixel_accuracy": 0.9891510009765625,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 11,
+    "name": "img_0012.jpg",
+    "pixel_accuracy": 0.100006103515625,
+    "oil_lookalike_confusion": 1777,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 12,
+    "name": "img_0013.jpg",
+    "pixel_accuracy": 0.949676513671875,
+    "oil_lookalike_confusion": 1092,
+    "ship_pixels": 3,
+    "ship_recall": 0.0
+  },
+  {
+    "index": 13,
+    "name": "img_0014.jpg",
+    "pixel_accuracy": 0.9926605224609375,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 23,
+    "ship_recall": 0.8695652173913043
+  },
+  {
+    "index": 14,
+    "name": "img_0015.jpg",
+    "pixel_accuracy": 0.9851837158203125,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 12,
+    "ship_recall": 0.0
+  },
+  {
+    "index": 15,
+    "name": "img_0016.jpg",
+    "pixel_accuracy": 0.9475555419921875,
+    "oil_lookalike_confusion": 349,
+    "ship_pixels": 11,
+    "ship_recall": 0.0
+  },
+  {
+    "index": 16,
+    "name": "img_0017.jpg",
+    "pixel_accuracy": 0.9742584228515625,
+    "oil_lookalike_confusion": 174,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 17,
+    "name": "img_0018.jpg",
+    "pixel_accuracy": 0.9923858642578125,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 18,
+    "name": "img_0019.jpg",
+    "pixel_accuracy": 0.9780426025390625,
+    "oil_lookalike_confusion": 935,
+    "ship_pixels": 51,
+    "ship_recall": 1.0
+  },
+  {
+    "index": 19,
+    "name": "img_0020.jpg",
+    "pixel_accuracy": 0.9307403564453125,
+    "oil_lookalike_confusion": 38,
+    "ship_pixels": 101,
+    "ship_recall": 0.7227722772277227
+  },
+  {
+    "index": 20,
+    "name": "img_0021.jpg",
+    "pixel_accuracy": 0.97845458984375,
+    "oil_lookalike_confusion": 212,
+    "ship_pixels": 9,
+    "ship_recall": 1.0
+  },
+  {
+    "index": 21,
+    "name": "img_0022.jpg",
+    "pixel_accuracy": 0.9901123046875,
+    "oil_lookalike_confusion": 158,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 22,
+    "name": "img_0023.jpg",
+    "pixel_accuracy": 0.978057861328125,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 23,
+    "name": "img_0024.jpg",
+    "pixel_accuracy": 0.99383544921875,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 24,
+    "name": "img_0025.jpg",
+    "pixel_accuracy": 0.9937591552734375,
+    "oil_lookalike_confusion": 8,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 25,
+    "name": "img_0026.jpg",
+    "pixel_accuracy": 0.99627685546875,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 26,
+    "name": "img_0027.jpg",
+    "pixel_accuracy": 0.9969635009765625,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 27,
+    "name": "img_0028.jpg",
+    "pixel_accuracy": 0.967132568359375,
+    "oil_lookalike_confusion": 520,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 28,
+    "name": "img_0029.jpg",
+    "pixel_accuracy": 0.843963623046875,
+    "oil_lookalike_confusion": 32,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 29,
+    "name": "img_0030.jpg",
+    "pixel_accuracy": 0.9835662841796875,
+    "oil_lookalike_confusion": 137,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 30,
+    "name": "img_0031.jpg",
+    "pixel_accuracy": 0.990203857421875,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 11,
+    "ship_recall": 0.0
+  },
+  {
+    "index": 31,
+    "name": "img_0032.jpg",
+    "pixel_accuracy": 0.985198974609375,
+    "oil_lookalike_confusion": 560,
+    "ship_pixels": 2,
+    "ship_recall": 0.0
+  },
+  {
+    "index": 32,
+    "name": "img_0033.jpg",
+    "pixel_accuracy": 0.7632293701171875,
+    "oil_lookalike_confusion": 529,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 33,
+    "name": "img_0034.jpg",
+    "pixel_accuracy": 0.956298828125,
+    "oil_lookalike_confusion": 239,
+    "ship_pixels": 22,
+    "ship_recall": 0.9090909090909091
+  },
+  {
+    "index": 34,
+    "name": "img_0035.jpg",
+    "pixel_accuracy": 0.995697021484375,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 12,
+    "ship_recall": 0.0
+  },
+  {
+    "index": 35,
+    "name": "img_0036.jpg",
+    "pixel_accuracy": 0.9441680908203125,
+    "oil_lookalike_confusion": 232,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 36,
+    "name": "img_0037.jpg",
+    "pixel_accuracy": 0.951080322265625,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 5,
+    "ship_recall": 0.0
+  },
+  {
+    "index": 37,
+    "name": "img_0038.jpg",
+    "pixel_accuracy": 0.992828369140625,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 38,
+    "name": "img_0039.jpg",
+    "pixel_accuracy": 0.994598388671875,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 12,
+    "ship_recall": 1.0
+  },
+  {
+    "index": 39,
+    "name": "img_0040.jpg",
+    "pixel_accuracy": 0.9830474853515625,
+    "oil_lookalike_confusion": 764,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 40,
+    "name": "img_0041.jpg",
+    "pixel_accuracy": 0.966644287109375,
+    "oil_lookalike_confusion": 6,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 41,
+    "name": "img_0042.jpg",
+    "pixel_accuracy": 0.9942474365234375,
+    "oil_lookalike_confusion": 20,
+    "ship_pixels": 15,
+    "ship_recall": 0.0
+  },
+  {
+    "index": 42,
+    "name": "img_0043.jpg",
+    "pixel_accuracy": 0.9381561279296875,
+    "oil_lookalike_confusion": 3003,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 43,
+    "name": "img_0044.jpg",
+    "pixel_accuracy": 0.7718048095703125,
+    "oil_lookalike_confusion": 7,
+    "ship_pixels": 14,
+    "ship_recall": 0.9285714285714286
+  },
+  {
+    "index": 44,
+    "name": "img_0045.jpg",
+    "pixel_accuracy": 0.9616546630859375,
+    "oil_lookalike_confusion": 1662,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 45,
+    "name": "img_0046.jpg",
+    "pixel_accuracy": 0.8555908203125,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 10,
+    "ship_recall": 0.0
+  },
+  {
+    "index": 46,
+    "name": "img_0047.jpg",
+    "pixel_accuracy": 0.9766998291015625,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 47,
+    "name": "img_0048.jpg",
+    "pixel_accuracy": 0.9986572265625,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 48,
+    "name": "img_0049.jpg",
+    "pixel_accuracy": 0.98504638671875,
+    "oil_lookalike_confusion": 74,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 49,
+    "name": "img_0050.jpg",
+    "pixel_accuracy": 0.9990081787109375,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 50,
+    "name": "img_0051.jpg",
+    "pixel_accuracy": 0.9281768798828125,
+    "oil_lookalike_confusion": 1615,
+    "ship_pixels": 71,
+    "ship_recall": 0.8591549295774648
+  },
+  {
+    "index": 51,
+    "name": "img_0052.jpg",
+    "pixel_accuracy": 0.96380615234375,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 52,
+    "name": "img_0053.jpg",
+    "pixel_accuracy": 0.1986236572265625,
+    "oil_lookalike_confusion": 124,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 53,
+    "name": "img_0054.jpg",
+    "pixel_accuracy": 0.9808349609375,
+    "oil_lookalike_confusion": 303,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 54,
+    "name": "img_0055.jpg",
+    "pixel_accuracy": 0.9874267578125,
+    "oil_lookalike_confusion": 99,
+    "ship_pixels": 72,
+    "ship_recall": 0.3055555555555556
+  },
+  {
+    "index": 55,
+    "name": "img_0056.jpg",
+    "pixel_accuracy": 0.8980865478515625,
+    "oil_lookalike_confusion": 514,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 56,
+    "name": "img_0057.jpg",
+    "pixel_accuracy": 0.95709228515625,
+    "oil_lookalike_confusion": 632,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 57,
+    "name": "img_0058.jpg",
+    "pixel_accuracy": 0.9962615966796875,
+    "oil_lookalike_confusion": 125,
+    "ship_pixels": 14,
+    "ship_recall": 0.8571428571428571
+  },
+  {
+    "index": 58,
+    "name": "img_0059.jpg",
+    "pixel_accuracy": 0.9587860107421875,
+    "oil_lookalike_confusion": 167,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 59,
+    "name": "img_0060.jpg",
+    "pixel_accuracy": 0.99163818359375,
+    "oil_lookalike_confusion": 42,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 60,
+    "name": "img_0061.jpg",
+    "pixel_accuracy": 0.9232940673828125,
+    "oil_lookalike_confusion": 16,
+    "ship_pixels": 1,
+    "ship_recall": 0.0
+  },
+  {
+    "index": 61,
+    "name": "img_0062.jpg",
+    "pixel_accuracy": 0.9647216796875,
+    "oil_lookalike_confusion": 37,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 62,
+    "name": "img_0063.jpg",
+    "pixel_accuracy": 0.9658966064453125,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 63,
+    "name": "img_0064.jpg",
+    "pixel_accuracy": 0.94659423828125,
+    "oil_lookalike_confusion": 717,
+    "ship_pixels": 28,
+    "ship_recall": 0.9642857142857143
+  },
+  {
+    "index": 64,
+    "name": "img_0065.jpg",
+    "pixel_accuracy": 0.925201416015625,
+    "oil_lookalike_confusion": 4010,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 65,
+    "name": "img_0066.jpg",
+    "pixel_accuracy": 0.95599365234375,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 1,
+    "ship_recall": 0.0
+  },
+  {
+    "index": 66,
+    "name": "img_0067.jpg",
+    "pixel_accuracy": 0.974090576171875,
+    "oil_lookalike_confusion": 105,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 67,
+    "name": "img_0068.jpg",
+    "pixel_accuracy": 0.9963226318359375,
+    "oil_lookalike_confusion": 89,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 68,
+    "name": "img_0069.jpg",
+    "pixel_accuracy": 0.912750244140625,
+    "oil_lookalike_confusion": 26,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 69,
+    "name": "img_0070.jpg",
+    "pixel_accuracy": 0.7539215087890625,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 70,
+    "name": "img_0071.jpg",
+    "pixel_accuracy": 0.8543243408203125,
+    "oil_lookalike_confusion": 614,
+    "ship_pixels": 86,
+    "ship_recall": 0.08139534883720931
+  },
+  {
+    "index": 71,
+    "name": "img_0072.jpg",
+    "pixel_accuracy": 0.9119873046875,
+    "oil_lookalike_confusion": 284,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 72,
+    "name": "img_0073.jpg",
+    "pixel_accuracy": 0.9844512939453125,
+    "oil_lookalike_confusion": 121,
+    "ship_pixels": 39,
+    "ship_recall": 0.8205128205128205
+  },
+  {
+    "index": 73,
+    "name": "img_0074.jpg",
+    "pixel_accuracy": 0.2503662109375,
+    "oil_lookalike_confusion": 729,
+    "ship_pixels": 8,
+    "ship_recall": 0.0
+  },
+  {
+    "index": 74,
+    "name": "img_0075.jpg",
+    "pixel_accuracy": 0.8905487060546875,
+    "oil_lookalike_confusion": 51,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 75,
+    "name": "img_0076.jpg",
+    "pixel_accuracy": 0.955047607421875,
+    "oil_lookalike_confusion": 25,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 76,
+    "name": "img_0077.jpg",
+    "pixel_accuracy": 0.9618072509765625,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 77,
+    "name": "img_0078.jpg",
+    "pixel_accuracy": 0.9941558837890625,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 78,
+    "name": "img_0079.jpg",
+    "pixel_accuracy": 0.9888153076171875,
+    "oil_lookalike_confusion": 124,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 79,
+    "name": "img_0080.jpg",
+    "pixel_accuracy": 0.788909912109375,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 29,
+    "ship_recall": 0.034482758620689655
+  },
+  {
+    "index": 80,
+    "name": "img_0081.jpg",
+    "pixel_accuracy": 0.921966552734375,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 81,
+    "name": "img_0082.jpg",
+    "pixel_accuracy": 0.816680908203125,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 82,
+    "name": "img_0083.jpg",
+    "pixel_accuracy": 0.969879150390625,
+    "oil_lookalike_confusion": 110,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 83,
+    "name": "img_0084.jpg",
+    "pixel_accuracy": 0.9888763427734375,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 84,
+    "name": "img_0085.jpg",
+    "pixel_accuracy": 0.992401123046875,
+    "oil_lookalike_confusion": 97,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 85,
+    "name": "img_0086.jpg",
+    "pixel_accuracy": 0.974822998046875,
+    "oil_lookalike_confusion": 125,
+    "ship_pixels": 21,
+    "ship_recall": 1.0
+  },
+  {
+    "index": 86,
+    "name": "img_0087.jpg",
+    "pixel_accuracy": 0.9959259033203125,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 87,
+    "name": "img_0088.jpg",
+    "pixel_accuracy": 0.906219482421875,
+    "oil_lookalike_confusion": 347,
+    "ship_pixels": 18,
+    "ship_recall": 0.8888888888888888
+  },
+  {
+    "index": 88,
+    "name": "img_0089.jpg",
+    "pixel_accuracy": 0.923736572265625,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 89,
+    "name": "img_0090.jpg",
+    "pixel_accuracy": 0.9659576416015625,
+    "oil_lookalike_confusion": 477,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 90,
+    "name": "img_0091.jpg",
+    "pixel_accuracy": 0.998443603515625,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 91,
+    "name": "img_0092.jpg",
+    "pixel_accuracy": 0.915130615234375,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 92,
+    "name": "img_0093.jpg",
+    "pixel_accuracy": 0.8805084228515625,
+    "oil_lookalike_confusion": 58,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 93,
+    "name": "img_0094.jpg",
+    "pixel_accuracy": 0.9881744384765625,
+    "oil_lookalike_confusion": 101,
+    "ship_pixels": 3,
+    "ship_recall": 0.0
+  },
+  {
+    "index": 94,
+    "name": "img_0095.jpg",
+    "pixel_accuracy": 0.88360595703125,
+    "oil_lookalike_confusion": 2379,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 95,
+    "name": "img_0096.jpg",
+    "pixel_accuracy": 0.90252685546875,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 96,
+    "name": "img_0097.jpg",
+    "pixel_accuracy": 0.93170166015625,
+    "oil_lookalike_confusion": 73,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 97,
+    "name": "img_0098.jpg",
+    "pixel_accuracy": 0.9257354736328125,
+    "oil_lookalike_confusion": 451,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 98,
+    "name": "img_0099.jpg",
+    "pixel_accuracy": 0.967376708984375,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 99,
+    "name": "img_0100.jpg",
+    "pixel_accuracy": 0.9322967529296875,
+    "oil_lookalike_confusion": 1269,
+    "ship_pixels": 4,
+    "ship_recall": 0.0
+  },
+  {
+    "index": 100,
+    "name": "img_0101.jpg",
+    "pixel_accuracy": 0.988189697265625,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 29,
+    "ship_recall": 0.7586206896551724
+  },
+  {
+    "index": 101,
+    "name": "img_0102.jpg",
+    "pixel_accuracy": 0.9739227294921875,
+    "oil_lookalike_confusion": 23,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 102,
+    "name": "img_0103.jpg",
+    "pixel_accuracy": 0.975616455078125,
+    "oil_lookalike_confusion": 634,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 103,
+    "name": "img_0104.jpg",
+    "pixel_accuracy": 0.97869873046875,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 104,
+    "name": "img_0105.jpg",
+    "pixel_accuracy": 0.9629669189453125,
+    "oil_lookalike_confusion": 595,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 105,
+    "name": "img_0106.jpg",
+    "pixel_accuracy": 0.9981842041015625,
+    "oil_lookalike_confusion": 32,
+    "ship_pixels": 22,
+    "ship_recall": 0.6818181818181818
+  },
+  {
+    "index": 106,
+    "name": "img_0107.jpg",
+    "pixel_accuracy": 0.068572998046875,
+    "oil_lookalike_confusion": 1530,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 107,
+    "name": "img_0108.jpg",
+    "pixel_accuracy": 0.9951171875,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 108,
+    "name": "img_0109.jpg",
+    "pixel_accuracy": 0.99224853515625,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 0,
+    "ship_recall": null
+  },
+  {
+    "index": 109,
+    "name": "img_0110.jpg",
+    "pixel_accuracy": 0.96978759765625,
+    "oil_lookalike_confusion": 0,
+    "ship_pixels": 7,
+    "ship_recall": 0.0
+  }
+]
